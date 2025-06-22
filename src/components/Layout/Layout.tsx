@@ -57,6 +57,11 @@ const Layout = ({ children, onLogout }: LayoutProps) => {
       path: '/products',
     },
     {
+      text: 'Notas Fiscais',
+      icon: <AssignmentIcon />,
+      path: '/notas-fiscais',
+    },
+    {
       text: 'Relatórios',
       icon: <AssessmentIcon />,
       path: '/reports',
